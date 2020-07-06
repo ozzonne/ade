@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# ADE - Android Desktop Experience
 # Script to use Android as Full Desktop Environment on laptop
 
 default_density=$(adb shell wm density | grep -o '[0-9]*')
